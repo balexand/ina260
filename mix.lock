@@ -1,4 +1,6 @@
 %{
+  "circuits_i2c": {:hex, :circuits_i2c, "2.0.0", "8343b12879189f844835abeaf31a36c5626b8ace58413a582794fdfe60c2dc0e", [:make, :mix], [{:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm", "06eccd33b36bcedf41730cac8da58e359967ea63a2cd899cea58c2a138634cc4"},
   "dialyxir": {:hex, :dialyxir, "1.4.0", "6b698401c16de79e8596b73dca63762255e70e4bbe26423530e173917220d5fc", [:mix], [{:erlex, ">= 0.2.6", [hex: :erlex, repo: "hexpm", optional: false]}], "hexpm", "c7ecaa1da27debae488ab09d9827ec58a0161c7821972b6d2cb26c1614648849"},
+  "elixir_make": {:hex, :elixir_make, "0.7.7", "7128c60c2476019ed978210c245badf08b03dbec4f24d05790ef791da11aa17c", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}], "hexpm", "5bc19fff950fad52bbe5f211b12db9ec82c6b34a9647da0c2224b8b8464c7e6c"},
   "erlex": {:hex, :erlex, "0.2.6", "c7987d15e899c7a2f34f5420d2a2ea0d659682c06ac607572df55a43753aa12e", [:mix], [], "hexpm", "2ed2e25711feb44d52b17d2780eabf998452f6efda104877a3881c2f8c0c0c75"},
 }

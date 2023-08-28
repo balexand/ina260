@@ -1,4 +1,4 @@
-defmodule Ina260.MixProject do
+defmodule INA260.MixProject do
   use Mix.Project
 
   def project do
@@ -21,6 +21,7 @@ defmodule Ina260.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:circuits_i2c, "~> 2.0 or ~> 1.0"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
     ]
   end
